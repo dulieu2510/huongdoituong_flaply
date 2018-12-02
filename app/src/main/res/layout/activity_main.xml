@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/li"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textSize="18sp" />
+
+
+
+
+
+
+        <FrameLayout
+            android:id="@+id/fr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="tap to start"
+                android:textAlignment="center"
+                android:textSize="48sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_gravity="center_vertical"
+
+                app:srcCompat="@drawable/tron"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_gravity="center_vertical"
+
+                app:srcCompat="@drawable/vuong"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_gravity="center_vertical"
+
+                app:srcCompat="@drawable/tron"
+
+                />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="100px"
+                android:layout_height="100px"
+                android:layout_gravity="center_vertical"
+
+                app:srcCompat="@drawable/tamgiac"
+
+                />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
